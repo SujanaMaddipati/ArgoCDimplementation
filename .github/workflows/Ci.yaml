@@ -30,6 +30,7 @@ jobs:
 
   docker:
     runs-on: ubuntu-latest
+    environment: Argo
     needs: build
 
     steps:
